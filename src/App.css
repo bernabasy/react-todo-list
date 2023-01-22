@@ -1,0 +1,10 @@
+:root {
+  --primary: #fc466b;
+  --light: #eee;
+  --lighter: #fff;
+  --dark: #313154;
+  --darker: #000;
+  --danger: #c9d3fd;
+  --grey: #888;
+  --shadow: 0 1px 3px rgba(211, 0, 0, 0.027);
+}
