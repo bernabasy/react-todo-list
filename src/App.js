@@ -14,20 +14,20 @@ function App() {
   }
 
   useEffect(() => {
-    const storedTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
-    if (storedTodos) setTodos(storedTodos);
+    const storedTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
+    if (storedTodos) setTodos(storedTodos)
   }, []);
 
   useEffect(() => {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(todos));
   }, [todos]);
 
-  function Toggletodo(id) {
-    const newTodos = [...todos];
-    const todo = newTodos.find((todo) => todo.id === id);
-    todo.complet = !todo.complet;
-    setTodos(newTodos);
-  }
+  // function Toggletodo(id) {
+  //   const newTodos = [...todos];
+  //   const todo = newTodos.find((todo) => todo.id === id);
+  //   todo.complet = !todo.complet;
+  //   setTodos(newTodos);
+  // }
 
   return (
     <>
@@ -40,8 +40,7 @@ function App() {
             add
           </button>
         </div>
-        {/* the rest of the component remains the same */}
-        <TodoList todos={todos} Toggletodo={Toggletodo} />
+        <TodoList todos={todos} />
       </div>
     </>
   );
