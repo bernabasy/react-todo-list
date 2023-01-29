@@ -7,7 +7,7 @@ const LOCAL_STORAGE_KEY = "todos";
 function App() {
   const [todos, setTodos] = useState([]);
   const inputNameRef = useRef();
-  function changeHandler() {
+   changeHandler (() => {
     const name = inputNameRef.current.value;
     if (name == null) {
       return;
@@ -17,7 +17,7 @@ function App() {
       { id: uuidv4(), name, complet: true },
     ]);
     inputNameRef.current.value = null;
-  }
+  })
 
   useEffect(() => {
     const storedTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));

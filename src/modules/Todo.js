@@ -4,9 +4,9 @@ import React from 'react';
 /* eslint-env es6 */
 
 export default function Todo({ todo, toggletodo }) {
-  function handelToggleChane() {
+   handelToggleChane(() => {
     toggletodo(todo.id);
-  }
+  })
 
   return (
     <div>
