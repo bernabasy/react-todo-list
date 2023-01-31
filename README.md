@@ -58,7 +58,7 @@ Make additions, subractions, multiplications, divisions using this app.
 
 - Make sure to intall linters using this link: https://github.com/microverseinc/linters-config.
 
--Project run with CRRA (create react app)
+- Project run with CRRA (create react app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,11 +66,11 @@ Make additions, subractions, multiplications, divisions using this app.
 
 In order to run this project you need:
 
--Google chrome
+- Google chrome
 
--Internet Explorer
+- Internet Explorer
 
--Any broswer
+- Any broswer
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
