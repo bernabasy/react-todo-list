@@ -108,7 +108,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Implement mathematical operations such as addition, subtration, multiplication and division..
+- Implement dark mode.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
