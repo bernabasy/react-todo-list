@@ -101,7 +101,7 @@ Clone this repository to your desired folder:
 
 - GitHub: [@githubhandle](https://github.com/bernabasy)
 - Twitter: [@twitterhandle](https://twitter.com/@bernabasjosef)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bernabas-yosef-74b571186)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bernabas-yosef)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
