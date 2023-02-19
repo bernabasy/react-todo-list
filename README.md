@@ -24,7 +24,7 @@
 
 # 📖 React-todo-list<a name="about-project"></a>
 
-**React-todo-list* is atodos application user can add any todo and edit it. 
+**React-todo-list* is atodos application user can add any todo and edit it. And it is an educational project which allows the user to enter, delete and edit tasks. It used local storage to store data. Moreover, to enhance user experience, tasks can be edited, deleted, and removed when completed.
 
 Here are some features of the page:
 
